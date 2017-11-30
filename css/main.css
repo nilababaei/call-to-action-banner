@@ -54,10 +54,26 @@ a {
   border-color: #000;
 }
 
-.icon {
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+/* Add overflow: hidden; above*/
+
+h2 {
   position: absolute;
 }
 
-.banner {
-  position: relative;
+p {
+  position: absolute;
+}
+
+a {
+  position: absolute;
+}
+
+.icon {
+  float: left;
+  margin: 0;
 }
