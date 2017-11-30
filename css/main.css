@@ -42,9 +42,8 @@ h2, a {
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
-
-/* Add overflow: hidden; above once you placed text in the banner*/
 
 h2 {
   font-size: 3rem;
@@ -70,7 +69,7 @@ a {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 
   width: 100%;
   max-width: 35em;
